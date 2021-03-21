@@ -18,6 +18,7 @@ public class Exercise3 {
 			sb1.reverse();
 			temp[i] = Integer.parseInt(sb1.toString());
 		}
+		Arrays.sort(temp);
 		return temp;
 	}
 
