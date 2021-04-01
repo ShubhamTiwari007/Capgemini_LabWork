@@ -11,6 +11,7 @@ public class App {
 		
 		em.getTransaction().begin();
 		
+		
 		Author author1 = new Author();
 		author1.setName("Robert Mathew Roy");
 		
